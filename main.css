@@ -1,7 +1,7 @@
 html {
     /* font-size: 10px; px means "pixels": the base font size is now 10 pixels high  */
     font-family: 'Roboto', sans-serif;
-    background-color: dimgray;
+    background-color: rgb(219, 212, 212); 
   }
 
 h1 {
