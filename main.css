@@ -38,8 +38,14 @@ h4 {
 a {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    border: black;
-}
+    text-decoration: none; /*this is what makes it not look like a link anymoe...*/
+  }
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  a:hover, a:active, a:focus {
+    color:#c33;
+  }
 
 footer {
     font-family: 'Yusei Magic', sans-serif;
@@ -51,3 +57,11 @@ footer {
     padding: 0 5%;
 }
 
+.JoeyPicture {
+    border-radius: 30px;
+    float: left;
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+
+}
