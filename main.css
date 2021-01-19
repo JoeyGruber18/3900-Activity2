@@ -26,13 +26,13 @@ h2 {
 h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    text-align: right;
     border: black;
 }
 
 h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    text-align: right;
     border: black;
 }
 
@@ -40,4 +40,8 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     border: black;
+}
+
+footer {
+    font-family: 'Yusei Magic', sans-serif;
 }
