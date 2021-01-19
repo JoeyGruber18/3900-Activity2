@@ -1,5 +1,4 @@
 html {
-    /* font-size: 10px; px means "pixels": the base font size is now 10 pixels high  */
     background-color: rgb(219, 212, 212); 
   }
 
@@ -45,3 +44,10 @@ a {
 footer {
     font-family: 'Yusei Magic', sans-serif;
 }
+
+#wrapper {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
