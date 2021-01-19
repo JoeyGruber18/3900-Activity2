@@ -1,10 +1,15 @@
+html {
+    /* font-size: 10px; px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Roboto', sans-serif;
+    background-color: dimgray;
+  }
 
-  h1 {
+h1 {
     font-size: 60px;
     text-align: center;
   }
   
-  p {
+p {
     font-size: 20px;
     text-align: left;  
     width:600px;
