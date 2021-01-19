@@ -63,5 +63,43 @@ footer {
     width: 250px;
     height: 200px;
     margin: 20px;
+    object-fit: cover;
 
 }
+
+div.resources {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    box-sizing: border-box;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    
+  }
+
+  div.contacts {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    float:inline;
+
+  }
+
+  .grid-container {
+    display: grid;
+    background-color: rgb(219, 212, 212);
+    padding: 10px;
+    grid-column-gap: 50px;
+    justify-content: center;
+  }
+  .grid-item {
+    background-color: rgb(219, 212, 212);
+    border: 1px solid rgb(219, 212, 212);
+    padding: 20px;
+  }
