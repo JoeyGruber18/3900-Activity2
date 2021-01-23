@@ -39,6 +39,7 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-decoration: none; /*this is what makes it not look like a link anymoe...*/
+    color: black; 
   }
   a:visited {
     color: rgb(0, 0, 0);
