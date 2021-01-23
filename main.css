@@ -66,14 +66,6 @@ footer {
     object-fit: cover;
 
 }
-
-div.resources {
-    width: 20%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    box-sizing: border-box;
-  }
   
   div.container {
     text-align: center;
@@ -81,25 +73,23 @@ div.resources {
     
   }
 
-  div.contacts {
-    width: 20%;
+  div.item {
+    width: 25%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     box-sizing: border-box;
-    float:inline;
 
   }
 
-  .grid-container {
-    display: grid;
-    background-color: rgb(219, 212, 212);
-    padding: 10px;
-    grid-column-gap: 50px;
-    justify-content: center;
+  div.stuff {
+      display: flex;
+      flex-direction: column;
+  justify-content: center;
+      
   }
-  .grid-item {
-    background-color: rgb(219, 212, 212);
-    border: 1px solid rgb(219, 212, 212);
-    padding: 20px;
+  div.row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
   }
